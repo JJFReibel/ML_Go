@@ -3,6 +3,9 @@ import (
 "math"
 "math/rand"
 )
+// Go ML
+// By JJ Reibel
+
 func TrainValTestSplit(X []float64, y []float64, valSize float64, testSize float64, epochs int, randomState int64) ([][]float64, [][]float64, [][]float64, [][]float64, [][]float64, [][]float64) {
 // Get the total number of samples in the dataset
 nSamples := len(X)
